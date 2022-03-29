@@ -1,0 +1,18 @@
+<div class="container" >
+  <div class="row" >
+  <div class="col-lg-4" *ngFor="let product of products">
+   
+      <div class="col-lg-12 col-md-12 col-sm-12" >
+        <img [src]="product.image" alt="image not found" width="50%" heigth="50%">
+      </div>
+      <div class="col-lg-12">
+            {{product.productName}}
+      </div>
+      <div class="col-lg-12">
+        {{product.price}}
+      </div>
+    
+    </div>
+  </div>
+
+  </div>
